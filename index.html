@@ -27,7 +27,7 @@
     <div>
         <button onclick="getNumbers()">Calculate</button>
     </div>
-    <h5>Result:</h5>
+    <h4>Result:</h4>
     <div id="result"></div>
 
     <script>
@@ -43,11 +43,6 @@
                 result = +firstNumValue + +secondNumValue;
             } else if (operator === '-') {
                 result = +firstNumValue - +secondNumValue;
-            } else if (operator === '*') {
-                result = +firstNumValue * +secondNumValue;
-            } else if (operator === '/') {
-                
-                result = +firstNumValue / +secondNumValue;
             }
 
             resultPlace.textContent = result;
@@ -56,6 +51,9 @@
             document.getElementById('secondNumber').value = ''
         }
 
+        console.log(1);
+        console.log(2);
+        console.log(3);
 
     </script>
 
